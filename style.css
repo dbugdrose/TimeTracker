@@ -1,0 +1,101 @@
+body {
+background-color: black;
+}
+
+.informationPanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.reportContainer {
+margin-right: 15px;
+}
+.cardContainer {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 244px 1fr;
+gap: 35px 15px;
+}
+
+.card-main {
+    background-color: #1C204B;
+    width: 255px;
+    height: 199px;
+    margin-top: -115px;
+    border-radius: 15px;
+}
+
+.card-head {
+    width: 255px;
+    height: 160px;
+    border-radius: 15px;
+    z-index: -5;
+}
+.card-head-work {
+    background-color: #FF8B64;
+}
+.card-head-play {
+    background-color: #55C2E6;
+}
+
+.card-head-study {
+    background-color: #FF5E7D;
+}
+
+.card-head-exercise {
+    background-color: #4BCF82;
+}
+.card-head-social {
+    background-color: #7335D2;
+}
+.card-head-self-care {
+    background-color: #F1C75B;
+}
+
+.card-head-report {
+    background-color: #5747EA;
+    width: 255px;
+    height: 354px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 4;
+}
+
+.card-main-report {
+    width: 255px;
+    height: 518px;
+    background-color: #1C204B;
+    margin-top: -354px;
+    z-index: -10;
+    border-radius: 15px;
+}
+.report {
+grid-column: 1/2;
+grid-row:  1/3;
+}
+.work {
+grid-column: 2/3;
+grid-row: 1/2;
+}
+.play {
+grid-column: 3/4;
+grid-row: 1/2;
+}
+.study {
+grid-column: 4;
+grid-row: 1/2;
+}
+.exercise {
+grid-column: 2/3;
+grid-row: 2;
+}
+.social {
+grid-column: 3/4;
+grid-row: 2/3;
+}
+.self-care {
+grid-column: 4;
+grid-row: 2/3;
+}
