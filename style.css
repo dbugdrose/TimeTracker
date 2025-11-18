@@ -1,5 +1,10 @@
 body {
 background-color: black;
+color: white;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .informationPanel {
@@ -16,7 +21,15 @@ margin-right: 15px;
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 grid-template-rows: 244px 1fr;
-gap: 35px 15px;
+gap: 15px;
+}
+
+.icon {
+    position: relative;
+    z-index: 0;
+    margin-right: 10px;
+    object-fit: contain;
+    position: center;
 }
 
 .card-main {
@@ -25,13 +38,14 @@ gap: 35px 15px;
     height: 199px;
     margin-top: -115px;
     border-radius: 15px;
+    position: relative;
+    z-index: 3;
 }
 
 .card-head {
     width: 255px;
     height: 160px;
     border-radius: 15px;
-    z-index: -5;
 }
 .card-head-work {
     background-color: #FF8B64;
@@ -68,8 +82,15 @@ gap: 35px 15px;
     height: 518px;
     background-color: #1C204B;
     margin-top: -354px;
-    z-index: -10;
     border-radius: 15px;
+}
+
+.card-hours {
+    font-weight: thin;
+    font-size: 56px;
+}
+.last-week {
+    color: #BBC0FF;
 }
 .report {
 grid-column: 1/2;
