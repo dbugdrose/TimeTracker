@@ -4,7 +4,7 @@ color: white;
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
-  font-style: normal;
+  font-style: thin;
 }
 
 .informationPanel {
@@ -75,6 +75,7 @@ gap: 15px;
     border-radius: 15px;
     position: relative;
     z-index: 4;
+    padding: 30px;
 }
 
 .card-main-report {
@@ -85,13 +86,23 @@ gap: 15px;
     border-radius: 15px;
 }
 
+.userImg {
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 1px 3px 3px 1px #2c2284;
+    margin-bottom: 30px;
+}
+
+.name {
+    font-size: 40px;
+}
 .card-hours {
-    font-weight: thin;
     font-size: 56px;
 }
-.last-week {
+.last-week, .report-for, .byTime {
     color: #BBC0FF;
 }
+
 .report {
 grid-column: 1/2;
 grid-row:  1/3;
