@@ -87,6 +87,11 @@ margin: 0px;
     border-radius: 15px;
 }
 
+.card-inner {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 .userImg {
     border-radius: 50px;
     border: 3px solid white;
@@ -192,6 +197,19 @@ grid-auto-flow: auto;
     display:flex;
     justify-content: center;
 }
+
+.card-head {
+width: 327px;
+height: 160px;
+}
+.card-main {
+width: 327px;
+height: 122px;
+padding: 0px;
+}
+.card-hours{
+font-size: 30px;
+}
 .card-head-report {
     width: 255px;
     height: 354px;
@@ -207,5 +225,14 @@ grid-auto-flow: auto;
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
+}
+.card-category {
+    margin-bottom: -20px;
+}
+.hours-and-week {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 10px;
 }
 }
