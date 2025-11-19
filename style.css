@@ -20,7 +20,7 @@ margin-right: 15px;
 .cardContainer {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 244px 1fr;
+grid-template-rows: 1fr 1fr;
 gap: 15px 0px;
 margin: 0px;
 }
