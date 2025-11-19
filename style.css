@@ -168,12 +168,15 @@ padding: 0px;
     padding: 0px;
 }
 .reportContainer {
-    margin-left: auto;
-    margin-right: auto;
-    width: 615px;
+margin: 0px;
+padding: 0px;
+width: 615px;
+display: flex;
+justify-content: center;
 }
 .card-head-report {
-    width: 100%;
+    max-width: 100%;
+    width: 615px;
     height: 354px;
     display: block;
     text-align: center;
@@ -216,8 +219,15 @@ align-items: center;
 
 @media (max-width: 767.5px) {
 .reportContainer {
+max-width: 100%;
 width: 525px;
 }
+
+.card-head-report, .card-main-report {
+    max-width: 100%;
+    width: 525px;
+}
+
 }
 
 /* -----------------------MOBILE STYLING ------------------------- */
