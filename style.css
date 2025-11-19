@@ -355,6 +355,9 @@ font-size: 30px;
    align-items: end;
    padding: 0px;
 }
+.last-week {
+margin-top: 10px;
+}
 }
 /* ----------------------- SMALL MOBILE STYLING ------------------------- */
 @media (max-width: 356px) {
@@ -383,7 +386,9 @@ width: 310px;
 .cardContainer {
     padding: 0px;
 }
-}
+
 .reportContainer {
     width: 310px;
 }
+}
+
