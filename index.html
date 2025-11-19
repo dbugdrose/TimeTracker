@@ -35,13 +35,13 @@
                     </section>
                     <section class="card-main-report pb-3 byTime">
                         <article class="daily">
-                            <p>Daily</p>
+                            <p id="daily">Daily</p>
                         </article>
                         <article class="weekly">
-                            <p>Weekly</p>
+                            <p id="weekly">Weekly</p>
                         </article>
                         <article class="monthly">
-                            <p>Monthly</p>
+                            <p id="monthly">Monthly</p>
                         </article>
                     </section>
                 </div>
@@ -60,9 +60,9 @@
                                 <article><img src="/images/icon-ellipsis.svg" alt="ellipsis"></article>
                             </section>
                             <section class="hours-and-week">
-                                <article class="pl-4 card-hours">(00)hrs</article>
-                                <article class="last-week pl-4">
-                                    <p>Last Week - (00)hrs</p>
+                                <article class="pl-4 card-hours" id="work-current-parent"><span id="work-current"></span>hrs</article>
+                                <article class="last-week pl-4" id="work-previous-parent">
+                                    <p>Last Week - <span id="work-previous"></span>hrs</p>
                                 </article>
                             </section>
                         </section>

@@ -53,6 +53,10 @@ margin: 0px;
     z-index: 3;
 }
 
+.card-main:hover, .card-main-report:hover {
+background-color: #33397A;
+}
+
 .card-head {
     width: 255px;
     height: 160px;
