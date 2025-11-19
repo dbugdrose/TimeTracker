@@ -279,6 +279,7 @@ monthly.addEventListener("click", () => {
     selfCareCurrentParent.appendChild(selfCareCurrentSpan)
 
     const selfCarePreviousParent = document.getElementById('selfCare-previous-parent')
+    console.log(data[5].timeframes.monthly.previous)
     const selfCarePrevious = data[5].timeframes.monthly.previous;
     const selfCarePreviousSpan = document.createElement('span');
     selfCarePreviousSpan.innerHTML = `<span>Last week - ${selfCarePrevious}</span>hrs`;
