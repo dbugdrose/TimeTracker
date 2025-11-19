@@ -122,6 +122,20 @@ background-color: #33397A;
 .last-week, .report-for, .byTime {
     color: #BBC0FF;
 }
+
+a {
+color: #BBC0FF;
+}
+
+a:hover {
+color: white;
+text-decoration: none;
+}
+
+.last-week {
+    margin-top: -20px;
+}
+
 .byTime {
     display: flex;
     flex-direction: column;
