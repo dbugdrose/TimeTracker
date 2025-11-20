@@ -119,12 +119,13 @@ background-color: #33397A;
 .card-hours {
     font-size: 56px;
 }
-.last-week, .report-for, .byTime {
+.last-week, .report-for {
     color: #BBC0FF;
 }
 
 a {
 color: #BBC0FF;
+font-weight: 400;
 }
 
 a:hover {
