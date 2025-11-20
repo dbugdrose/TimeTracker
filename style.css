@@ -232,11 +232,9 @@ a:hover {
         justify-content: space-evenly;
     }
 
-
     .cards {
         padding: 0px;
     }
-
 
 }
 
@@ -254,13 +252,9 @@ a:hover {
         margin: 0px;
     }
 
-
-
-
     .reportContainer {
         width: 327px;
     }
-
 
     .report {
         width: 327px;
@@ -268,9 +262,6 @@ a:hover {
         padding: 0px;
         margin-bottom: 30px;
     }
-
-
-
 
     .cardContainer {
         display: grid;
@@ -282,7 +273,6 @@ a:hover {
     .card-head {
         width: 327px;
         height: 38px;
-
 
     }
 
@@ -306,12 +296,10 @@ a:hover {
         overflow: hidden;
     }
 
-
     .card-hours {
         font-size: 30px;
         padding-left: 0px !important;
     }
-
 
     .card-head-report {
         width: 327px;
@@ -319,26 +307,20 @@ a:hover {
         display: flex;
     }
 
-
-
-
     .card-head-report-text {
         display: block;
         text-align: left;
         padding-left: 15px;
     }
 
-
     .name {
         margin-top: -20px;
         font-size: 24px;
     }
 
-
     .card-category {
         margin-bottom: -20px;
     }
-
 
     .hours-and-week {
         display: flex;
@@ -348,9 +330,7 @@ a:hover {
         padding-left: 10px;
         margin-left: 0px;
 
-
     }
-
 
     .byTime {
         display: flex;
@@ -360,12 +340,10 @@ a:hover {
         padding: 0px;
     }
 
-
     .last-week {
         margin-top: 10px;
     }
 }
-
 
 /* ----------------------- SMALL MOBILE STYLING ------------------------- */
 @media (max-width: 356px) {
@@ -394,19 +372,16 @@ a:hover {
         overflow: hidden;
     }
 
-
     .card-head-report {
         width: 310px;
 
 
     }
 
-
     .reportContainer {
         margin-left: auto;
         margin-right: auto;
     }
-
 
     .report,
     .reportContainer,
