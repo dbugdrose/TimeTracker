@@ -219,8 +219,6 @@ a:hover {
         margin-right: auto;
         padding: 0px;
         width: 540px;
-        display: flex;
-        justify-content: center;
     }
 
     .card-head-report {
