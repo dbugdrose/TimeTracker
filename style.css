@@ -180,6 +180,24 @@ a:hover {
         grid-template-rows: 1fr 1fr 1fr;
         gap: 10px 10px;
     }
+
+    .report {
+        height: 752px;
+    }
+
+    .card-head-report {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        text-align: center;      
+    }
+
+    .byTime {
+        text-align: center;
+        padding: 0px;
+    }
 }
 
 /* -----------------------TABLET STYLING ------------------------- */
