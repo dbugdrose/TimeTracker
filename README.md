@@ -1,4 +1,4 @@
-//Darcy Rose
+<!-- //Darcy Rose
 
 //Date Revised: 11/20/25
 
@@ -12,4 +12,6 @@
 
 //uses Javascript to add hover functionality to each card and ellipsis.
 
-//Peer Reviewed by:
+//Peer Reviewed by: 
+
+-->

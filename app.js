@@ -76,15 +76,12 @@ selfCareCurrent.innerText = (data[5].timeframes.monthly.current + "hrs");
 selfCarePrevious.innerText = ("Last Month - " + data[5].timeframes.monthly.previous + "hrs");
 })
 
-function changeColor(element, color) {
-    element.style.backgroundColor = color; 
-}
-function resetColor(element, originalColor) {
-    element.style.backgroundColor = originalColor;
+function resetColor(element, color) {
+    element.style.backgroundColor = color;
 }
 // <-------------------work hover---------------------->
 workEllipsis.addEventListener('mouseover', () => {
-    changeColor(workCardMain, "#1C204B");
+    resetColor(workCardMain, "#1C204B");
 });
 
 workEllipsis.addEventListener('mouseout', () => {
@@ -100,7 +97,7 @@ workCardMain.addEventListener('mouseenter', () => {
 // <-------------------play hover---------------------->
 
 playEllipsis.addEventListener('mouseover', () => {
-    changeColor(playCardMain, "#1C204B");
+    resetColor(playCardMain, "#1C204B");
 });
 
 playEllipsis.addEventListener('mouseout', () => {
@@ -117,7 +114,7 @@ playCardMain.addEventListener('mouseenter', () => {
 
 
 studyEllipsis.addEventListener('mouseover', () => {
-    changeColor(studyCardMain, "#1C204B");
+    resetColor(studyCardMain, "#1C204B");
 });
 
 studyEllipsis.addEventListener('mouseout', () => {
@@ -133,7 +130,7 @@ studyCardMain.addEventListener('mouseenter', () => {
 // <-------------------exercise hover---------------------->
 
 exerciseEllipsis.addEventListener('mouseover', () => {
-    changeColor(exerciseCardMain, "#1C204B");
+    resetColor(exerciseCardMain, "#1C204B");
 });
 
 exerciseEllipsis.addEventListener('mouseout', () => {
@@ -149,7 +146,7 @@ exerciseCardMain.addEventListener('mouseenter', () => {
 // <-------------------social hover---------------------->
 
 socialEllipsis.addEventListener('mouseover', () => {
-    changeColor(socialCardMain, "#1C204B");
+    resetColor(socialCardMain, "#1C204B");
 });
 
 socialEllipsis.addEventListener('mouseout', () => {
@@ -165,7 +162,7 @@ socialCardMain.addEventListener('mouseenter', () => {
 // <-------------------selfCare hover---------------------->
 
 selfCareEllipsis.addEventListener('mouseover', () => {
-    changeColor(selfCareCardMain, "#1C204B");
+    resetColor(selfCareCardMain, "#1C204B");
 });
 
 selfCareEllipsis.addEventListener('mouseout', () => {
