@@ -53,7 +53,7 @@ margin: 0px;
     z-index: 3;
 }
 
-.card-main:hover, .card-main-report:hover {
+.card-main:hover, .report:hover {
 background-color: #33397A;
 }
 
@@ -89,13 +89,6 @@ background-color: #33397A;
     height: 354px;
     border-radius: 15px;
     padding: 30px;
-}
-
-.card-main-report {
-    width: 255px;
-    height: 518px;
-    background-color: #1C204B;
-    border-radius: 15px;
 }
 
 .card-inner {
@@ -308,14 +301,7 @@ padding-left: 0px !important;
     margin-top: -20px;
     font-size: 24px;
 }
-.card-main-report {
-    width: 327px;
-    height: 203px;
-    margin-top: -130px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
-}
+
 .card-category {
     margin-bottom: -20px;
 }
