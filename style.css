@@ -10,11 +10,6 @@ body {
     align-items: center;
 }
 
-main {
-    min-height: 100vh;
-}
-
-
 .informationPanel {
     display: flex;
     justify-content: center;
