@@ -88,8 +88,6 @@ background-color: #33397A;
     width: 255px;
     height: 354px;
     border-radius: 15px;
-    position: relative;
-    z-index: 4;
     padding: 30px;
 }
 
@@ -97,7 +95,6 @@ background-color: #33397A;
     width: 255px;
     height: 518px;
     background-color: #1C204B;
-    margin-top: -354px;
     border-radius: 15px;
 }
 
@@ -138,9 +135,7 @@ text-decoration: none;
 }
 
 .byTime {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+    margin-top: 30px;
     padding-left: 30px;
 }
 
@@ -153,6 +148,10 @@ padding: 0px;
 .report {
 grid-column: 1/2;
 grid-row:  1/3;
+    width: 255px;
+    height: 518px;
+    background-color: #1C204B;
+    border-radius: 15px;
 }
 .work {
 grid-column: 2/3;
@@ -210,18 +209,15 @@ display: flex;
 justify-content: center;
 }
 .card-head-report {
-    max-width: 100%;
-    width: 525px;
-    height: 354px;
+    width: 100%;
+    height: 280px;
     display: block;
     text-align: center;
 }
-.card-main-report {
+.report {
     width: 100%;
-    height: 525px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
+    height: 360px;
+    margin-bottom: 30px;
 }
 .cardContainer {
 grid-template-columns: repeat(2, 1fr);
@@ -230,15 +226,12 @@ column-gap: 15px;
 padding: 0px;
 }
 
+.byTime {
+display: flex;
+justify-content: space-evenly;
+}
 .cards {
     padding: 0px;
-}
-.byTime {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: end;
 }
 
 .work, .play, .exercise, .self-care, .study, .social {
@@ -248,26 +241,7 @@ justify-content: center;
 align-items: center;
 }
 }
-
-/* -----------------------767 STYLING ------------------------- */
-
-
-@media (max-width: 767.5px) {
-.reportContainer {
-max-width: 100%;
-width: 525px;
-}
-
-.card-head-report, .card-main-report {
-  max-width: 100%;
-width: 525px;  
-}
-
-}
-
 /* -----------------------MOBILE STYLING ------------------------- */
-
-
 
 @media (max-width: 523px) {
 .informationPanel {
@@ -281,18 +255,13 @@ width: 525px;
 
 
 .reportContainer {
-    margin-left: auto;
-    margin-right: auto;
-    width: 357px;
-
-
+    width: 327px;
 }
 .report {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 327px;
+    height: 203px;
     padding: 0px;
+    margin-bottom: 30px;
 }
 
 
@@ -382,24 +351,16 @@ width: 310px;
 height: 122px;
 padding: 0px;
 }
-
-.card-main-report {
-width: 310px;
-
-}
 .card-head-report {
 width: 310px;
 
 }
-.report {
-    padding: 0px;
-}
-.cardContainer {
-    padding: 0px;
-}
-
 .reportContainer {
+margin-left: auto;
+margin-right: auto;
+}
+.report, .reportContainer, .cardContainer {
     width: 310px;
+    padding: 0px;
 }
 }
-
