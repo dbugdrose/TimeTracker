@@ -177,12 +177,12 @@ a:hover {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 10px 10px;
+        padding: 0px;
     }
 
     .report {
         height: 752px;
-        margin-right: 0px;
-
+        margin-right: 10px;
     }
 
     .card-head-report {
