@@ -4,18 +4,30 @@ import data from "./data.json" with {type: "json"};
 const daily = document.getElementById("daily");
 const weekly = document.getElementById("weekly");
 const monthly = document.getElementById("monthly");
-let workCurrent = document.getElementById("work-current");
- let workPrevious = document.getElementById("work-previous");
- let playCurrent = document.getElementById("play-current");
- let playPrevious = document.getElementById("play-previous");
- let studyCurrent = document.getElementById("study-current");
- let studyPrevious = document.getElementById("study-previous");
- let exerciseCurrent = document.getElementById("exercise-current");
- let exercisePrevious = document.getElementById("exercise-previous");
- let socialCurrent = document.getElementById("social-current");
- let socialPrevious = document.getElementById("social-previous");
- let selfCareCurrent = document.getElementById("self-care-current");
- let selfCarePrevious = document.getElementById("self-care-previous");
+const workCurrent = document.getElementById("work-current");
+ const workPrevious = document.getElementById("work-previous");
+ const playCurrent = document.getElementById("play-current");
+ const playPrevious = document.getElementById("play-previous");
+ const studyCurrent = document.getElementById("study-current");
+ const studyPrevious = document.getElementById("study-previous");
+ const exerciseCurrent = document.getElementById("exercise-current");
+ const exercisePrevious = document.getElementById("exercise-previous");
+ const socialCurrent = document.getElementById("social-current");
+ const socialPrevious = document.getElementById("social-previous");
+ const selfCareCurrent = document.getElementById("self-care-current");
+ const selfCarePrevious = document.getElementById("self-care-previous");
+ const workCardMain = document.getElementById("work-card-main");
+ const workEllipsis = document.getElementById("work-ellipsis");
+ const playCardMain = document.getElementById("play-card-main");
+ const playEllipsis = document.getElementById("play-ellipsis");
+ const studyCardMain = document.getElementById("study-card-main");
+ const studyEllipsis = document.getElementById("study-ellipsis");
+ const exerciseCardMain = document.getElementById("exercise-card-main");
+ const exerciseEllipsis = document.getElementById("exercise-ellipsis");
+ const socialCardMain = document.getElementById("social-card-main");
+ const socialEllipsis = document.getElementById("social-ellipsis");
+ const selfCareCardMain = document.getElementById("self-care-card-main");
+ const selfCareEllipsis = document.getElementById("self-care-ellipsis");
 
 // <----------------daily---------------------->
 daily.addEventListener("click", () => {
@@ -63,3 +75,105 @@ socialPrevious.innerText = ("Last Month - " + data[4].timeframes.monthly.previou
 selfCareCurrent.innerText = (data[5].timeframes.monthly.current + "hrs");
 selfCarePrevious.innerText = ("Last Month - " + data[5].timeframes.monthly.previous + "hrs");
 })
+
+function changeColor(element, color) {
+    element.style.backgroundColor = color; 
+}
+function resetColor(element, originalColor) {
+    element.style.backgroundColor = originalColor;
+}
+// <-------------------work hover---------------------->
+workEllipsis.addEventListener('mouseover', () => {
+    changeColor(workCardMain, "#1C204B");
+});
+
+workEllipsis.addEventListener('mouseout', () => {
+    resetColor(workCardMain, "#33397A");
+});
+workCardMain.addEventListener('mouseleave', () => {
+ resetColor(workCardMain, "#1C204B")
+});
+workCardMain.addEventListener('mouseenter', () => {
+ resetColor(workCardMain, "#33397A")
+});
+
+// <-------------------play hover---------------------->
+
+playEllipsis.addEventListener('mouseover', () => {
+    changeColor(playCardMain, "#1C204B");
+});
+
+playEllipsis.addEventListener('mouseout', () => {
+    resetColor(playCardMain, "#33397A");
+});
+playCardMain.addEventListener('mouseleave', () => {
+ resetColor(playCardMain, "#1C204B")
+});
+playCardMain.addEventListener('mouseenter', () => {
+ resetColor(playCardMain, "#33397A")
+});
+
+// <-------------------study hover---------------------->
+
+
+studyEllipsis.addEventListener('mouseover', () => {
+    changeColor(studyCardMain, "#1C204B");
+});
+
+studyEllipsis.addEventListener('mouseout', () => {
+    resetColor(studyCardMain, "#33397A");
+});
+studyCardMain.addEventListener('mouseleave', () => {
+ resetColor(studyCardMain, "#1C204B")
+});
+studyCardMain.addEventListener('mouseenter', () => {
+ resetColor(studyCardMain, "#33397A")
+});
+
+// <-------------------exercise hover---------------------->
+
+exerciseEllipsis.addEventListener('mouseover', () => {
+    changeColor(exerciseCardMain, "#1C204B");
+});
+
+exerciseEllipsis.addEventListener('mouseout', () => {
+    resetColor(exerciseCardMain, "#33397A");
+});
+exerciseCardMain.addEventListener('mouseleave', () => {
+ resetColor(exerciseCardMain, "#1C204B")
+});
+exerciseCardMain.addEventListener('mouseenter', () => {
+ resetColor(exerciseCardMain, "#33397A")
+});
+
+// <-------------------social hover---------------------->
+
+socialEllipsis.addEventListener('mouseover', () => {
+    changeColor(socialCardMain, "#1C204B");
+});
+
+socialEllipsis.addEventListener('mouseout', () => {
+    resetColor(socialCardMain, "#33397A");
+});
+socialCardMain.addEventListener('mouseleave', () => {
+ resetColor(socialCardMain, "#1C204B")
+});
+socialCardMain.addEventListener('mouseenter', () => {
+ resetColor(socialCardMain, "#33397A")
+});
+
+// <-------------------selfCare hover---------------------->
+
+selfCareEllipsis.addEventListener('mouseover', () => {
+    changeColor(selfCareCardMain, "#1C204B");
+});
+
+selfCareEllipsis.addEventListener('mouseout', () => {
+    resetColor(selfCareCardMain, "#33397A");
+});
+selfCareCardMain.addEventListener('mouseleave', () => {
+ resetColor(selfCareCardMain, "#1C204B")
+});
+selfCareCardMain.addEventListener('mouseenter', () => {
+ resetColor(selfCareCardMain, "#33397A")
+});
