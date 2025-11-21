@@ -63,10 +63,14 @@ body {
 }
 
 .card-inner {
-    padding-top: 30px;
+    padding-top: 25px;
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: -10px;
+    font-size: 18px;
+    font-weight: 400;
+
+
 }
 
 .userImg {
@@ -100,7 +104,7 @@ a:hover {
 }
 
 .last-week {
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 .byTime {
