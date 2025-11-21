@@ -50,9 +50,9 @@ socialCurrent.innerText = (data[4].timeframes.daily.current + "hrs");
 socialPrevious.innerText = ("Yesterday - " + data[4].timeframes.daily.previous + "hrs");
 selfCareCurrent.innerText = (data[5].timeframes.daily.current + "hrs");
 selfCarePrevious.innerText = ("Yesterday - " + data[5].timeframes.daily.previous + "hrs");
-dailyA.style.color = "#ffffff";
-weeklyA.style.color = "hsl(236, 100%, 87%)";
-monthlyA.style.color ="hsl(236, 100%, 87%)";
+dailyA.style.color = "hsl(0, 0%, 100%)";
+weeklyA.style.color = "hsl(235, 45%, 61%)";
+monthlyA.style.color ="hsl(235, 45%, 61%)";
 
 })
 
@@ -70,9 +70,9 @@ socialCurrent.innerText = (data[4].timeframes.weekly.current + "hrs");
 socialPrevious.innerText = ("Last Week - " + data[4].timeframes.weekly.previous + "hrs");
 selfCareCurrent.innerText = (data[5].timeframes.weekly.current + "hrs");
 selfCarePrevious.innerText = ("Last Week - " + data[5].timeframes.weekly.previous + "hrs");
-weeklyA.style.color = "#ffffff";
-dailyA.style.color = "hsl(236, 100%, 87%)";
-monthlyA.style.color ="hsl(236, 100%, 87%)";
+weeklyA.style.color = "hsl(0, 0%, 100%)";
+monthlyA.style.color = "hsl(235, 45%, 61%)";
+dailyA.style.color ="hsl(235, 45%, 61%)";
 })
 // <----------------monthly---------------------->
 monthly.addEventListener("click", () => {
@@ -88,9 +88,9 @@ socialCurrent.innerText = (data[4].timeframes.monthly.current + "hrs");
 socialPrevious.innerText = ("Last Month - " + data[4].timeframes.monthly.previous + "hrs");
 selfCareCurrent.innerText = (data[5].timeframes.monthly.current + "hrs");
 selfCarePrevious.innerText = ("Last Month - " + data[5].timeframes.monthly.previous + "hrs");
-monthlyA.style.color = "#ffffff";
-weeklyA.style.color = "hsl(236, 100%, 87%)";
-dailyA.style.color ="hsl(236, 100%, 87%)";
+monthlyA.style.color = "hsl(0, 0%, 100%)";
+weeklyA.style.color = "hsl(235, 45%, 61%)";
+dailyA.style.color ="hsl(235, 45%, 61%)";
 })
 
 function resetColor(element, color) {

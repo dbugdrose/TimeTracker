@@ -89,12 +89,12 @@ body {
 }
 
 a {
-    color: hsl(236, 100%, 87%);
+    color: hsl(235, 45%, 61%);
     font-weight: 400;
 }
 
 a:hover {
-    color: white !important;
+    color: hsl(236, 100%, 87%) !important;
     text-decoration: none;
 }
 
