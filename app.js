@@ -191,18 +191,3 @@ selfCareCardMain.addEventListener('mouseleave', () => {
 selfCareCardMain.addEventListener('mouseenter', () => {
  resetColor(selfCareCardMain, "hsl(235, 45%, 61%)")
 });
-
-// <-------------------report hover---------------------->
-cardHeadReport.addEventListener('mouseover', () => {
-    resetColor(reportMain, "hsl(235, 46%, 20%)");
-});
-
-cardHeadReport.addEventListener('mouseout', () => {
-    resetColor(reportMain, "hsl(235, 45%, 61%)");
-});
-reportMain.addEventListener('mouseleave', () => {
- resetColor(reportMain, "hsl(235, 46%, 20%)")
-});
-reportMain.addEventListener('mouseenter', () => {
- resetColor(reportMain, "hsl(235, 45%, 61%)")
-});

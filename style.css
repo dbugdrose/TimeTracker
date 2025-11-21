@@ -40,8 +40,7 @@ body {
     background-color: hsl(235, 46%, 20%);
 }
 
-.card-main:hover,
-.report:hover {
+.card-main:hover {
     background-color: hsl(235, 45%, 61%);
 }
 
@@ -99,7 +98,7 @@ a {
 }
 
 a:hover {
-    color: white;
+    color: white !important;
     text-decoration: none;
 }
 
