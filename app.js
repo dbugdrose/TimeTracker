@@ -30,6 +30,11 @@ const workCurrent = document.getElementById("work-current");
  const selfCareEllipsis = document.getElementById("self-care-ellipsis");
  const reportMain = document.getElementById("report-main");
  const cardHeadReport = document.getElementById("card-head-report");
+ const dailyA = document.getElementById("daily-a");
+const weeklyA = document.getElementById("weekly-a");
+const monthlyA = document.getElementById("monthly-a");
+
+
 
 // <----------------daily---------------------->
 daily.addEventListener("click", () => {
@@ -45,6 +50,10 @@ socialCurrent.innerText = (data[4].timeframes.daily.current + "hrs");
 socialPrevious.innerText = ("Yesterday - " + data[4].timeframes.daily.previous + "hrs");
 selfCareCurrent.innerText = (data[5].timeframes.daily.current + "hrs");
 selfCarePrevious.innerText = ("Yesterday - " + data[5].timeframes.daily.previous + "hrs");
+dailyA.style.color = "#ffffff";
+weeklyA.style.color = "hsl(236, 100%, 87%)";
+monthlyA.style.color ="hsl(236, 100%, 87%)";
+
 })
 
 // <----------------weekly---------------------->
@@ -61,6 +70,9 @@ socialCurrent.innerText = (data[4].timeframes.weekly.current + "hrs");
 socialPrevious.innerText = ("Last Week - " + data[4].timeframes.weekly.previous + "hrs");
 selfCareCurrent.innerText = (data[5].timeframes.weekly.current + "hrs");
 selfCarePrevious.innerText = ("Last Week - " + data[5].timeframes.weekly.previous + "hrs");
+weeklyA.style.color = "#ffffff";
+dailyA.style.color = "hsl(236, 100%, 87%)";
+monthlyA.style.color ="hsl(236, 100%, 87%)";
 })
 // <----------------monthly---------------------->
 monthly.addEventListener("click", () => {
@@ -76,6 +88,9 @@ socialCurrent.innerText = (data[4].timeframes.monthly.current + "hrs");
 socialPrevious.innerText = ("Last Month - " + data[4].timeframes.monthly.previous + "hrs");
 selfCareCurrent.innerText = (data[5].timeframes.monthly.current + "hrs");
 selfCarePrevious.innerText = ("Last Month - " + data[5].timeframes.monthly.previous + "hrs");
+monthlyA.style.color = "#ffffff";
+weeklyA.style.color = "hsl(236, 100%, 87%)";
+dailyA.style.color ="hsl(236, 100%, 87%)";
 })
 
 function resetColor(element, color) {
