@@ -102,6 +102,10 @@ a:hover {
     text-decoration: none;
 }
 
+.ellipsis:hover {
+filter: brightness(0) invert(1);
+}
+
 .last-week {
     margin-top: -14px;
 }
