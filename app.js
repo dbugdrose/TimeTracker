@@ -81,96 +81,96 @@ function resetColor(element, color) {
 }
 // <-------------------work hover---------------------->
 workEllipsis.addEventListener('mouseover', () => {
-    resetColor(workCardMain, "#1C204B");
+    resetColor(workCardMain, "hsl(235, 46%, 20%)");
 });
 
 workEllipsis.addEventListener('mouseout', () => {
-    resetColor(workCardMain, "#33397A");
+    resetColor(workCardMain, "hsl(235, 45%, 61%)");
 });
 workCardMain.addEventListener('mouseleave', () => {
- resetColor(workCardMain, "#1C204B")
+ resetColor(workCardMain, "hsl(235, 46%, 20%)")
 });
 workCardMain.addEventListener('mouseenter', () => {
- resetColor(workCardMain, "#33397A")
+ resetColor(workCardMain, "hsl(235, 45%, 61%)")
 });
 
 // <-------------------play hover---------------------->
 
 playEllipsis.addEventListener('mouseover', () => {
-    resetColor(playCardMain, "#1C204B");
+    resetColor(playCardMain, "hsl(235, 46%, 20%)");
 });
 
 playEllipsis.addEventListener('mouseout', () => {
-    resetColor(playCardMain, "#33397A");
+    resetColor(playCardMain, "hsl(235, 45%, 61%)");
 });
 playCardMain.addEventListener('mouseleave', () => {
- resetColor(playCardMain, "#1C204B")
+ resetColor(playCardMain, "hsl(235, 46%, 20%)")
 });
 playCardMain.addEventListener('mouseenter', () => {
- resetColor(playCardMain, "#33397A")
+ resetColor(playCardMain, "hsl(235, 45%, 61%)")
 });
 
 // <-------------------study hover---------------------->
 
 
 studyEllipsis.addEventListener('mouseover', () => {
-    resetColor(studyCardMain, "#1C204B");
+    resetColor(studyCardMain, "hsl(235, 46%, 20%)");
 });
 
 studyEllipsis.addEventListener('mouseout', () => {
-    resetColor(studyCardMain, "#33397A");
+    resetColor(studyCardMain, "hsl(235, 45%, 61%)");
 });
 studyCardMain.addEventListener('mouseleave', () => {
- resetColor(studyCardMain, "#1C204B")
+ resetColor(studyCardMain, "hsl(235, 46%, 20%)")
 });
 studyCardMain.addEventListener('mouseenter', () => {
- resetColor(studyCardMain, "#33397A")
+ resetColor(studyCardMain, "hsl(235, 45%, 61%)")
 });
 
 // <-------------------exercise hover---------------------->
 
 exerciseEllipsis.addEventListener('mouseover', () => {
-    resetColor(exerciseCardMain, "#1C204B");
+    resetColor(exerciseCardMain, "hsl(235, 46%, 20%)");
 });
 
 exerciseEllipsis.addEventListener('mouseout', () => {
-    resetColor(exerciseCardMain, "#33397A");
+    resetColor(exerciseCardMain, "hsl(235, 45%, 61%)");
 });
 exerciseCardMain.addEventListener('mouseleave', () => {
- resetColor(exerciseCardMain, "#1C204B")
+ resetColor(exerciseCardMain, "hsl(235, 46%, 20%)")
 });
 exerciseCardMain.addEventListener('mouseenter', () => {
- resetColor(exerciseCardMain, "#33397A")
+ resetColor(exerciseCardMain, "hsl(235, 45%, 61%)")
 });
 
 // <-------------------social hover---------------------->
 
 socialEllipsis.addEventListener('mouseover', () => {
-    resetColor(socialCardMain, "#1C204B");
+    resetColor(socialCardMain, "hsl(235, 46%, 20%)");
 });
 
 socialEllipsis.addEventListener('mouseout', () => {
-    resetColor(socialCardMain, "#33397A");
+    resetColor(socialCardMain, "hsl(235, 45%, 61%)");
 });
 socialCardMain.addEventListener('mouseleave', () => {
- resetColor(socialCardMain, "#1C204B")
+ resetColor(socialCardMain, "hsl(235, 46%, 20%)")
 });
 socialCardMain.addEventListener('mouseenter', () => {
- resetColor(socialCardMain, "#33397A")
+ resetColor(socialCardMain, "hsl(235, 45%, 61%)")
 });
 
 // <-------------------selfCare hover---------------------->
 
 selfCareEllipsis.addEventListener('mouseover', () => {
-    resetColor(selfCareCardMain, "#1C204B");
+    resetColor(selfCareCardMain, "hsl(235, 46%, 20%)");
 });
 
 selfCareEllipsis.addEventListener('mouseout', () => {
-    resetColor(selfCareCardMain, "#33397A");
+    resetColor(selfCareCardMain, "hsl(235, 45%, 61%)");
 });
 selfCareCardMain.addEventListener('mouseleave', () => {
- resetColor(selfCareCardMain, "#1C204B")
+ resetColor(selfCareCardMain, "hsl(235, 46%, 20%)")
 });
 selfCareCardMain.addEventListener('mouseenter', () => {
- resetColor(selfCareCardMain, "#33397A")
+ resetColor(selfCareCardMain, "hsl(235, 45%, 61%)")
 });
