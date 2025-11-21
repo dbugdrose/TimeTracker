@@ -12,6 +12,6 @@
 
 //uses Javascript to add hover functionality to each card and ellipsis.
 
-//Peer Reviewed by: 
+//Peer Reviewed by: Carlos Lopez - Everything looks great the colors look spot on and everything looks to be in the right place and it doesnt apear that you hard coded anything. Good Job! 
 
 -->
